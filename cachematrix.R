@@ -44,7 +44,6 @@ cacheSolve <- function(x, ...) {
         ## using the getinv function in x to retrieve the cached inverse
         inv <- x$getinv()
         
-        
         ## This conditional statment checks if the returned inverse is 
         ## NULL or not.  If it is not NULL, then a message will be printed
         ## to notify the user of the inverse and the inverse of x is returned
